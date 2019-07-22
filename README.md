@@ -7,5 +7,8 @@
 * Bonus:
 1) -1, Dynamic file name and column sizing
 
+*Highlights*
+1) Use of recursive dynamic data tree population, sorting and printing
+
 * Resources
 1) http://man.openbsd.org/ls
