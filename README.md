@@ -11,4 +11,5 @@
 * `Use of recursive dynamic data tree population, sorting and printing`
 
 ### Resources
-* `http://man.openbsd.org/ls`
+1. `man ls` `man dirent` `man lstat` `man getpwuid`
+2. `http://man.openbsd.org/ls`
