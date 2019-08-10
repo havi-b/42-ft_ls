@@ -6,7 +6,7 @@
 /*   By: hbhuiyan <hbhuiyan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/05 19:57:15 by hbhuiyan          #+#    #+#             */
-/*   Updated: 2019/07/12 16:30:38 by hbhuiyan         ###   ########.fr       */
+/*   Updated: 2019/08/10 05:00:55 by hbhuiyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ int			ls_parse_flags(int ac, char **av, int *flags, int *i)
 	int n;
 	int k;
 
-	k = 1;
 	while (*i < ac && av[*i][0] == '-')
 	{
+		k = 1;
 		while (av[*i][k])
 		{
 			if ((n = ft_strchr_index("alrRt1", av[*i][k])) == -1)

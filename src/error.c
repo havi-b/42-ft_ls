@@ -6,7 +6,7 @@
 /*   By: hbhuiyan <hbhuiyan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/10 02:06:07 by hbhuiyan          #+#    #+#             */
-/*   Updated: 2019/07/12 19:13:43 by hbhuiyan         ###   ########.fr       */
+/*   Updated: 2019/08/10 05:01:28 by hbhuiyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int			ls_error(char *s, int error)
 		ft_putendl_fd(strerror(errno), 2);
 		exit(EXIT_FAILURE);
 	}
-	else if (error == ERRNO)
+	else if (error == MALL_ERR)
 		ft_putendl_fd(strerror(errno), 2);
 	if (error == USAGE || error == MALL_ERR)
 		exit(EXIT_FAILURE);
