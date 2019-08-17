@@ -7,7 +7,8 @@
 * `-l, -R, -a, -r, -t`
 
 ### Bonus:
-* `-1, Dynamic file name and column sizing`
+* `-1 : prints all output in one column`  
+* ` Dynamic file name and column sizing`
 
 ### *Highlights*
 * `Use of recursive dynamic data tree population, sorting and printing`
